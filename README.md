@@ -2,6 +2,6 @@
 
 ###### Our Participants
 
-| Participant # | Company Domain | Job title and role     | three                                    | Domain problems |
-| :------------ | :------------- | :--------------------- | :--------------------------------------- | --------------- |
-| #1            | Software       | Research Staff Manager | Object detection for telepresence robots |
+| PID | Company Domain | Job title and role     | Domain problems                          |
+| :-- | :------------- | :--------------------- | ---------------------------------------- |
+| #1  | Software       | Research Staff Manager | Object detection for telepresence robots |
