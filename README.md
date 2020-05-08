@@ -35,19 +35,31 @@ This project presents our results of empirical inquiry; we conducted semi-struct
 
 ## Results
 
-In total, we collected 19 hours and 10 minutes of audio recorded interviews, and conducted qualitative approach. The analyses we present represent the perspectives of our participants systematically curated in an interpretive framework which was developed through discussions among the authors. Our interviewing approach aimed to differentiate how our interviewees perceived interpretability _roles_, _processes_, _goals_, and associated _challenges and design opportunities_. We will briefly cover some notable challenges and design opportunity; if interested, our full manuscript is availabe as follows:
+In total, we collected 19 hours and 10 minutes of audio recorded interviews, and performed qualitative analysis. Our interviewing approach aimed to differentiate how our interviewees perceived interpretability _roles_, _processes_, _goals_, and associated _challenges and design opportunities_. We will briefly cover some notable challenges and design opportunity; if interested, our full manuscript is availabe as follows:
 
 [https://arxiv.org/abs/2004.11440](https://arxiv.org/abs/2004.11440)
 
-### 1
+#### 1. Identifying, Representing, and Integrating Human Expectations
 
-blah
+One of the most recurring reasons for parctitioners in performing model interpretability was seeking for "edge cases" where the model behaves _unexpectedly_ than human expectaion formed based on thier domain experience and common sense. Throughout the interviews, we found model interpretability is about comparision between a human mental model and a model's behavior, detection of a difference, understanding why such a difference occured, and who--a human, or a model--is accurate. We propose that interpretability research would benefit from interfaces and mechanisms to help a human (1) articulate their expectations around predictions in model interpretation tasks (2) efficiently recognize the gaps between their expectations and model representations, (3) gain context through further evidence available to the model that may help them assess the gap, and (4) enable them to debug/change model behavior based on their findings.
 
-### 2
+More systematic approaches to identifying these important "anchors" for interpretability work would increase interpretability-related task productivity. Looking to research in belief elicitation and mental model discovery within psychology, economics, and related disciplines in designing such approaches may be informative.
 
-blah
+#### 2. Communicating and Summarizing Model Behavior
 
-## Cite this work
+We observed model interpretability related tasks are performed as a form of "dialogue" between different stakeholders whtin an organization, which often results in misinterpretation. Several participants voiced the necessisity for _interpretability for everyone_ which refers to solutions that would be appropriate for both data scientists and domain experts. The cooperative and social nature of much of the interpretability work our participants described also suggests that transferring knowledge in the form of model "hand-offs" happens frequently. In these situations, having representations, such as visualizations, that can concisely capture how those receiving a model might expect it to behave in relation to their mental models could be useful to provide the types of model "bug" discoveries that some participants described occurring unexpectedly after deployment. These representations could be developed along with the algorithms mentioned above for efficiently identifying important test or edge cases for summarizing a model’s interpretability status.
+
+#### 3. Scalable and Integratable Interpretabiltiy Approach for Model Comparison and Data Preparation
+
+Many participants shared their concerns with integrating existing interpretability tools in their workflows and organizational infrastructure. Problems commonly cited are that: methods are not available because they were developed in academic settings, where creating robust and dependable software is not the norm; tools were not easy to integrate in existing platforms because they cannot be adapted to their specific environment; or simply that tools do not scale to the sheer size of their data sets.
+
+We suggest two emerging interpretability-related use cases: _data preparation_, and _model comparison_. Interpretability tools are needed in even an ideation stage where no complete data is ready for building their target model. Better tools are needed before training to assist with data debugging, to detect issues with data before they are used for training, as well as for feature engineering and model design. Our findings suggest that having a better way for a model designer to test hypotheses about what effect different decisions on _feature sets_ may have on model performance without necessarily building all these models entirely would improve model interpretability practice. Participants also pointed out that existing model interpretability approaches seem to overlook important, but perhaps less principled, aspects of approaches to comparing the outputs of multiple models to build a deeper understanding. We identified several different cases for model comparison: when comparing different parameters, selection of features, timestamps, and more.
+
+#### 4. Post Deployment Support
+
+We found multiple participants are often struggling with monitoring the models' behavior and update their model based on a set of insights while stakeholders apply their model's prediction outcomes. We believe data visualization tools are one way to facilitate monitoring model behavior. Automated anomaly detection may be useful in addition, to identify and surface potentially troubling behaviors, given an appropriate specification of critical expectations that should hold such as one learned from domain experts. As several participants alluded to, this is particularly hard in production because problems may stem from different modules of complex data architecture and not only from the model itself.
+
+## Cite
 
 Bibtex:
 
