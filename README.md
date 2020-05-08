@@ -1,6 +1,4 @@
-[Ray Hong](http://www.rayhong.net), [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/), and [Enrico Bertini](http://enrico.bertini.io/)
-
-Full paper can be found: [https://arxiv.org/abs/2004.11440](https://arxiv.org/abs/2004.11440)
+Presented by: [Ray Hong](http://www.rayhong.net), [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/), and [Enrico Bertini](http://enrico.bertini.io/)
 
 ## Background
 
@@ -37,6 +35,38 @@ This project presents our results of empirical inquiry; we conducted semi-struct
 
 ## Results
 
-In total, we collected 19 hours and 10 minutes of audio recorded interviews, and conducted qualitative approach. The analyses we present represent the perspectives of our participants systematically curated in an interpretive framework which was developed through discussions among the authors. Our interviewing approach aimed to differentiate how our interviewees perceived interpretability _roles_, _processes_, _goals_, and associated _challenges and design opportunities_.
+In total, we collected 19 hours and 10 minutes of audio recorded interviews, and conducted qualitative approach. The analyses we present represent the perspectives of our participants systematically curated in an interpretive framework which was developed through discussions among the authors. Our interviewing approach aimed to differentiate how our interviewees perceived interpretability _roles_, _processes_, _goals_, and associated _challenges and design opportunities_. We will briefly cover some notable challenges and design opportunity; if interested, our full manuscript is availabe as follows:
 
-## Some notable model interpretability challenges
+[https://arxiv.org/abs/2004.11440](https://arxiv.org/abs/2004.11440)
+
+### 1
+
+blah
+
+### 2
+
+blah
+
+## Cite this work
+
+Bibtex:
+
+```
+@article{hong2019design,
+  title={Human Factors in Model Interpretability:Industry Practices},
+  author={Hong, Sungsoo Ray and Hullman, Jessica and Bertini, Enrico},
+  journal={Proceedings of the ACM on Human-Computer Interaction},
+  volume={4},
+  number={CSCW1},
+  pages={1--26},
+  year={2020},
+  publisher={ACM New York, NY, USA},
+  DOI={10.1145/3392878}
+}
+```
+
+APA in-text:
+
+```
+Sungsoo Ray Hong, Jessica Hullman, and Enrico Bertini. 2020. Human Factors in Model Interpretability: Industry Practices, Challenges, and Needs.Proc. ACM Hum.-Comput. Interact.4, CSCW1, Article 311 (May 2020), 26 pages. https://doi.org/10.1145/33928781
+```
