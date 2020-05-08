@@ -1,8 +1,14 @@
 [Ray Hong](http://www.rayhong.net), [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/), and [Enrico Bertini](http://enrico.bertini.io/)
 
-## Our Participants
+Full paper can be found: [https://arxiv.org/abs/2004.11440](https://arxiv.org/abs/2004.11440)
 
-We had 22 individuals from 20 different companies who work in wide variety of domains including banking, finance, healthcare, IT, social media, consulting, manufacturing, internet services, and transportation. Among our participants, 17 described themselves as data scientists or machine learning engineers (DS), 2 identified themselves as software engineers whose goal is to build infrastructure related to model interpretability (SE), 2 identified themselves as product managers (PM), and one identified himself as a UX researcher (UX). All of them worked in teams of data scientists and engineers who need to communicate with product managers, customers, and other stakeholders. Some of the models they built are used by millions of daily active users and/or support critical decisions where life is at stake.
+## Background
+
+With the rapid increase in the deployment of machine learning (ML) in a wide range of practical application areas, we are witnissing increased concern about our capabilities to understand _how_ ML models work; shifting our focus on interacting with ML from a unidirectional focus on _model accuracy_ to a larger perspective that includes a strong focus on ML _model interpretability_. Despite this rapid expansion in model interpretability tools and formal and empirical definitions, our understanding of how interpretability is understood by and how it impacts the actual ML practitioners is still limited. Bridging this gap with emperical approach is necessary for grounding our work in the real problems we face when dealing with interpretability issues.
+
+## Methodology
+
+This project presents our results of empirical inquiry; we conducted semi-structured interviews with 22 ML practitioners from 20 different companies across 5 months of a period, who work in wide variety of domains including banking, finance, healthcare, IT, social media, consulting, manufacturing, internet services, and transportation. They are responsible for building models that are state-of-the-art in their field; some of the models they built are used by millions of daily active users and/or support critical decisions where life is at stake (17 data scientists or machine learning engineers (DS), 2 software engineers who build infrastructure related to model interpretability (SE), 2 product managers (PM), and oneUX researcher (UX), see the table below).
 
 | PID | Company Domain     | Job title and role                | Domain problems                              |
 | :-- | :----------------- | :-------------------------------- | -------------------------------------------- |
@@ -29,4 +35,8 @@ We had 22 individuals from 20 different companies who work in wide variety of do
 | P21 | Software           | Principal Design Manager (UX)     | Best images selection, transcription         |
 | P22 | Healthcare         | Senior Data Scientist (DS)        | Care management/resource utilization         |
 
-Full paper can be found as follows: [https://arxiv.org/abs/2004.11440](https://arxiv.org/abs/2004.11440)
+## Results
+
+In total, we collected 19 hours and 10 minutes of audio recorded interviews, and conducted qualitative approach. The analyses we present represent the perspectives of our participants systematically curated in an interpretive framework which was developed through discussions among the authors. Our interviewing approach aimed to differentiate how our interviewees perceived interpretability _roles_, _processes_, _goals_, and associated _challenges and design opportunities_.
+
+## Some notable model interpretability challenges
