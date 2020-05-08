@@ -1,3 +1,5 @@
+Presented by: [Ray Hong](http://www.rayhong.net), [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/), and [Enrico Bertini](http://enrico.bertini.io/)
+
 ## Background
 
 With the rapid increase in the deployment of machine learning (ML) in a wide range of practical application areas, we are witnessing increased concern about our capabilities to understand _how_ ML models work; shifting our focus on interacting with ML from a unidirectional focus on _model accuracy_ to a larger perspective that includes a strong focus on ML _model interpretability_. Despite this rapid expansion in model interpretability tools and formal and empirical definitions, our understanding of how interpretability is understood by and how it impacts the actual ML practitioners is still limited. Bridging this gap with an empirical approach is necessary for grounding our work in the real problems we face when dealing with interpretability issues.
@@ -84,7 +86,5 @@ Sungsoo Ray Hong, Jessica Hullman, and Enrico Bertini. 2020.
 Human Factors in Model Interpretability: Industry Practices, Challenges, and Needs.
 Proc. ACM Hum.-Comput. Interact.4, CSCW1, Article 311 (May 2020), 26 pages. https://doi.org/10.1145/33928781
 ```
-
-Presented by: [Ray Hong](http://www.rayhong.net), [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/), and [Enrico Bertini](http://enrico.bertini.io/)
 
 05-08-2020
