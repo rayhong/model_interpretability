@@ -2,8 +2,6 @@
 
 ## Our Participants
 
----
-
 We had 22 individuals from 20 different companies who work in wide variety of domains including banking, finance, healthcare, IT, social media, consulting, manufacturing, internet services, and transportation. Among our participants, 17 described themselves as data scientists or machine learning engineers (DS), 2 identified themselves as software engineers whose goal is to build infrastructure related to model interpretability (SE), 2 identified themselves as product managers (PM), and one identified himself as a UX researcher (UX). All of them worked in teams of data scientists and engineers who need to communicate with product managers, customers, and other stakeholders. Some of the models they built are used by millions of daily active users and/or support critical decisions where life is at stake.
 
 | PID | Company Domain     | Job title and role                | Domain problems                              |
@@ -31,10 +29,4 @@ We had 22 individuals from 20 different companies who work in wide variety of do
 | P21 | Software           | Principal Design Manager (UX)     | Best images selection, transcription         |
 | P22 | Healthcare         | Senior Data Scientist (DS)        | Care management/resource utilization         |
 
----
-
-Full paper can be found as follows:
-
-```
-[https://arxiv.org/abs/2004.11440](https://arxiv.org/abs/2004.11440)
-```
+Full paper can be found as follows: [https://arxiv.org/abs/2004.11440](https://arxiv.org/abs/2004.11440)
