@@ -68,5 +68,7 @@ Bibtex:
 APA in-text:
 
 ```
-Sungsoo Ray Hong, Jessica Hullman, and Enrico Bertini. 2020. Human Factors in Model Interpretability: Industry Practices, Challenges, and Needs.Proc. ACM Hum.-Comput. Interact.4, CSCW1, Article 311 (May 2020), 26 pages. https://doi.org/10.1145/33928781
+Sungsoo Ray Hong, Jessica Hullman, and Enrico Bertini. 2020.
+Human Factors in Model Interpretability: Industry Practices, Challenges, and Needs.
+Proc. ACM Hum.-Comput. Interact.4, CSCW1, Article 311 (May 2020), 26 pages. https://doi.org/10.1145/33928781
 ```
