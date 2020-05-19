@@ -8,13 +8,11 @@ With the rapid increase in the deployment of machine learning (ML) in a wide ran
 
 <img src="/img/board.png" class="inline"/>
 
-### RESEARCH METHOD
-
-Core insights we found came from semi-structured interviews with 22 ML practitioners from 20 different companies, who work in a wide variety of domains including banking, finance, healthcare, IT, social media, consulting, manufacturing, internet services, and transportation. Our participants build models that are state-of-the-art in their field; some of the models they built are used by millions of daily active users and/or support critical decisions where life is at stake (see our participants in Appendix).
+Core insights we identified came from semi-structured interviews with 22 ML practitioners from 20 different companies, who work in a wide variety of domains including banking, finance, healthcare, IT, social media, consulting, manufacturing, internet services, and transportation. Our participants build models that are state-of-the-art in their field; some of the models they built are used by millions of daily active users and/or support critical decisions where life is at stake (see our participants in Appendix).
 
 ### RESULTS
 
-In total, we collected 19 hours and 10 minutes of audio recorded interviews and performed qualitative analysis. Our interviewing approach aimed to differentiate how our interviewees perceived interpretability _roles_, _processes_, _goals_, and associated _challenges and design opportunities_. We will briefly cover some notable challenges and design opportunity; if interested, our full manuscript is available as follows:
+In total, we collected 19 hours and 10 minutes of audio recorded interviews and performed qualitative analysis. Our interviewing approach aimed to differentiate how our interviewees perceived interpretability _roles_, _processes_, _goals_, and associated _challenges and design opportunities_. We will briefly cover notable challenges and design opportunity; our full manuscript is available as follows:
 
 [https://arxiv.org/abs/2004.11440](https://arxiv.org/abs/2004.11440)
 
