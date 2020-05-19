@@ -1,5 +1,7 @@
 Presented by: [Ray Hong](http://www.rayhong.net), [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/), and [Enrico Bertini](http://enrico.bertini.io/)
 
+<img src="/img/board.png" class="inline"/>
+
 ## Background
 
 With the rapid increase in the deployment of machine learning (ML) in a wide range of practical application areas, we are witnessing increased concern about our capabilities to understand _how_ ML models work; shifting our focus on interacting with ML from a unidirectional focus on _model accuracy_ to a larger perspective that includes a strong focus on ML _model interpretability_. Despite this rapid expansion in model interpretability tools and formal and empirical definitions, our understanding of how interpretability is understood by and how it impacts the actual ML practitioners is still limited. Bridging this gap with an empirical approach is necessary for grounding our work in the real problems we face when dealing with interpretability issues.
