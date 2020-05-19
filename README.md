@@ -2,17 +2,18 @@
 
 Presented by: [Ray Hong](http://www.rayhong.net), [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/), and [Enrico Bertini](http://enrico.bertini.io/)
 
-## Background
+### Background
 
 With the rapid increase in the deployment of machine learning (ML) in a wide range of practical application areas, we are witnessing increased concern about our capabilities to understand _how_ ML models work; shifting our focus on interacting with ML from a unidirectional focus on _model accuracy_ to a larger perspective that includes a strong focus on ML _model interpretability_. Despite this rapid expansion in model interpretability tools and formal and empirical definitions, our understanding of how interpretability is understood by and how it impacts the actual ML practitioners is still limited. Bridging this gap with an empirical approach is necessary for grounding our work in the real problems we face when dealing with interpretability issues. The following summary table shows the core findings of this project:
 
 <img src="/img/board.png" class="inline"/>
 
-## Methodology
+### Methodology
 
 Core insights we found came from semi-structured interviews with 22 ML practitioners from 20 different companies, who work in a wide variety of domains including banking, finance, healthcare, IT, social media, consulting, manufacturing, internet services, and transportation. Our participants build models that are state-of-the-art in their field; some of the models they built are used by millions of daily active users and/or support critical decisions where life is at stake (see our participants in Appendix).
 
-## Results
+
+### Results
 
 In total, we collected 19 hours and 10 minutes of audio recorded interviews and performed qualitative analysis. Our interviewing approach aimed to differentiate how our interviewees perceived interpretability _roles_, _processes_, _goals_, and associated _challenges and design opportunities_. We will briefly cover some notable challenges and design opportunity; if interested, our full manuscript is available as follows:
 
@@ -38,7 +39,7 @@ We suggest two emerging interpretability-related use cases: _data preparation_, 
 
 We found multiple participants are often struggling with monitoring the models' behavior and update their model based on a set of insights while stakeholders apply their model's prediction outcomes. We believe data visualization tools are one way to facilitate monitoring model behavior. Automated anomaly detection may be useful in addition, to identify and surface potentially troubling behaviors, given an appropriate specification of critical expectations that should hold such as one learned from domain experts. As several participants alluded to, this is particularly hard in production because problems may stem from different modules of complex data architecture and not only from the model itself.
 
-## Cite
+### Cite
 
 This work is accepted in the 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW2020). We described emerging themes, insightful quotes from our participants, and more detailed findings in our [paper](https://arxiv.org/abs/2004.11440).
 
@@ -66,7 +67,7 @@ Human Factors in Model Interpretability: Industry Practices, Challenges, and Nee
 Proc. ACM Hum.-Comput. Interact.4, CSCW1, Article 311 (May 2020), 26 pages. https://doi.org/10.1145/33928781
 ```
 
-## Appendix 
+### Appendix 
 Our participants:
 | PID | Company Domain     | Job title and role                | Domain problems                              |
 | :-- | :----------------- | :-------------------------------- | -------------------------------------------- |
