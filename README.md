@@ -1,6 +1,8 @@
-Presented by: [Ray Hong](http://www.rayhong.net), [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/), and [Enrico Bertini](http://enrico.bertini.io/)
+## Human Factors in Model Interpretability: Industry Practices, Challenges, and Needs
 
 <img src="/img/board.png" class="inline"/>
+
+Presented by: [Ray Hong](http://www.rayhong.net), [Jessica Hullman](http://users.eecs.northwestern.edu/~jhullman/), and [Enrico Bertini](http://enrico.bertini.io/)
 
 ## Background
 
