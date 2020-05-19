@@ -4,7 +4,7 @@ Presented by: [Ray Hong](http://www.rayhong.net), [Jessica Hullman](http://users
 
 ### BACKGROUND
 
-With the rapid increase in the deployment of machine learning (ML) in a wide range of application areas, we are witnessing increased concern about our capabilities to understand _how_ ML models work; shifting our focus on interacting with ML from a unidirectional focus on _model accuracy_ to a larger perspective that includes a strong focus on ML _model interpretability_. Despite this rapid expansion in model interpretability tools and formal and empirical definitions, our understanding of how interpretability is understood by and how it impacts the actual ML practitioners is still limited. We conducted empirical inquiry to bridge this gap. We conducted an empirical inquiry to bridge this gap. You can see our core findings in the following summary table:
+With the rapid increase in the deployment of machine learning (ML) in a wide range of application areas, we are witnessing increased concern about our capabilities to understand _how_ ML models work; shifting our focus on interacting with ML from a unidirectional focus on _model accuracy_ to a larger perspective that includes a strong focus on ML _model interpretability_. Despite this rapid expansion in model interpretability tools and formal and empirical definitions, our understanding of how interpretability is understood by and how it impacts the actual ML practitioners is still limited. We conducted an empirical inquiry to bridge this gap. We conducted an empirical inquiry to bridge this gap. You can see our core findings in the following summary table:
 
 <img src="/img/board.png" class="inline"/>
 
@@ -38,7 +38,7 @@ We found multiple participants are often struggling with monitoring the models' 
 
 ### CITE
 
-This work is accepted in the 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW2020). We described emerging themes, insightful quotes from our participants, and more detailed findings in our [paper](https://arxiv.org/abs/2004.11440).
+This work is accepted in the 23rd ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW2020). We described emerging themes, insightful quotes from our participants and more detailed findings in our [paper](https://arxiv.org/abs/2004.11440).
 
 Bibtex:
 
@@ -76,7 +76,7 @@ Our participants:
 | P6  | Banking/Finance    | Head of AI (DS)                   | Credit evaluation for business loans         |
 | P7  | Internet Services  | Senior Software Developer (SE)    | Tooling for tabular/image data               |
 | P8  | Social Media       | Data Scientist (DS)               | Service user retention prediction            |
-| P9  | Banking/Finance    | Principal Data Scientist          | Customer acquisition/financial forcasting    |
+| P9  | Banking/Finance    | Principal Data Scientist          | Customer acquisition/financial forecasting    |
 | P10 | Software           | Product Manager (PM)              | Tooling (visualizing model interpretation)   |
 | P11 | Consulting         | Lead Data Scientist (DS)          | Revenue maximization strategy prediction     |
 | P12 | Internet Services  | Head of ML (DS)                   | Oversees more than 50 models                 |
@@ -84,7 +84,7 @@ Our participants:
 | P14 | Social Media       | ML Engineering Manager (DS)       | Advertisement ranking                        |
 | P15 | Transportation S/W | Senior ML Research Scientist (DS) | Claim handling, driver voice assistance      |
 | P16 | Healthcare         | Medical Doctor (DS)               | Mortality, deterioration, and radiology      |
-| P17 | Manufacturing      | Senior Researh Scientist (DS)     | Oil pump/power grid operation                |
+| P17 | Manufacturing      | Senior Research Scientist (DS)     | Oil pump/power grid operation                |
 | P18 | Software/Research  | CTO (SE)                          | Tooling (image-based model interpretation)   |
 | P19 | Finance            | Senior Analytics Expert (PM)      | Credit score prediction                      |
 | P20 | Healthcare         | CTO, Head of Data Science (DS)    | Lung cancer operation                        |
