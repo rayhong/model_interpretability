@@ -4,7 +4,7 @@ Presented by: [Ray Hong](http://www.rayhong.net), [Jessica Hullman](http://users
 
 ### BACKGROUND
 
-With the rapid increase in the deployment of machine learning (ML) in a wide range of application areas, we are witnessing increased concern about our capabilities to understand _how_ ML models work; shifting our focus on interacting with ML from a unidirectional focus on _model accuracy_ to a larger perspective that includes a strong focus on ML _model interpretability_. Despite this rapid expansion in model interpretability tools and formal and empirical definitions, our understanding of how interpretability is understood by and how it impacts the actual ML practitioners is still limited. We conducted an empirical inquiry to bridge this gap. We conducted an empirical inquiry to bridge this gap. You can see our core findings in the following summary table:
+With the rapid increase in the deployment of machine learning (ML) in a wide range of application areas, we are witnessing increased concern about our capabilities to understand _how_ ML models work; shifting our focus on interacting with ML from a unidirectional focus on _model accuracy_ to a larger perspective that includes a strong focus on ML _model interpretability_. Despite this rapid expansion in model interpretability tools and formal and empirical definitions, our understanding of how interpretability is understood by and how it impacts the actual ML practitioners is still limited. We conducted an empirical inquiry to bridge this gap. You can see our core findings in the following summary table:
 
 <img src="/img/board.png" class="inline"/>
 
@@ -12,21 +12,21 @@ Core insights we identified came from semi-structured interviews with 22 ML prac
 
 ### RESULTS
 
-In total, we collected 19 hours and 10 minutes of audio recorded interviews and performed qualitative analysis. Our interviewing approach aimed to differentiate how our interviewees perceived interpretability _roles_, _processes_, _goals_, and associated _challenges and design opportunities_. We will briefly cover notable challenges and design opportunity; our full manuscript is available as follows:
+In total, we collected 19 hours and 10 minutes of audio recorded interviews and performed qualitative analysis. Our interviewing approach aimed to differentiate how our interviewees perceived interpretability _roles_, _processes_, _goals_, and associated _challenges and design opportunities_. We briefly cover notable challenges and design opportunities here; our full manuscript is available as follows:
 
 [https://arxiv.org/abs/2004.11440](https://arxiv.org/abs/2004.11440)
 
 #### 1. Identifying, Representing, and Integrating Human Expectations
 
-One of the most recurring reasons for practitioners in performing model interpretability was seeking for "edge cases" where the model behaves _unexpectedly_ than human expectations formed based on their domain experience and common sense. Throughout the interviews, we found model interpretability is about the _comparison_ between a human mental model and a model's behavior, identification of differences, understanding why such differences occurred, and deciding whom--a human, or a model--to follow. We propose that interpretability research would benefit from interfaces and mechanisms to help a human (1) articulate their expectations around predictions in model interpretation tasks (2) efficiently recognize the gaps between their expectations and model representations, (3) gain context through further evidence available to the model that may help them assess the gap, and (4) enable them to debug/change model behavior based on their findings.
+One of the most recurring reasons for practitioners in performing model interpretability was seeking for "edge cases" where the model behaves _unexpectedly_ in light of human expectations formed based on their domain experience and common sense. Throughout the interviews, we observed perceptions of model interpretability as about the _comparison_ between a human mental model and a model's behavior, the work involved in identifying those differences throughout a model lifespan, understanding why such differences occurred, and deciding whom--a human, or a model--to follow. We propose that interpretability research would benefit from interfaces and mechanisms to help a human (1) articulate their expectations around predictions in model interpretation tasks (2) efficiently recognize the gaps between their expectations and model representations (i.e., without having to test the model comprehensively), (3) gain context through further evidence available to the model that may help them assess the gap, and (4) enable them to debug/change model behavior based on their findings.
 
 More systematic approaches to identifying these important "anchors" for interpretability work would increase interpretability-related task productivity. Looking to research in belief elicitation and mental model discovery within psychology, economics, and related disciplines in designing such approaches may be informative.
 
 #### 2. Communicating and Summarizing Model Behavior
 
-We observed model interpretability related tasks are performed as a form of "dialogue" between different stakeholders within an organization, which often results in misinterpretation. Several participants voiced the necessity for _interpretability for everyone_ which refers to solutions that would be appropriate for both data scientists and domain experts. The cooperative and social nature of much of the interpretability work suggests that transferring knowledge frequently happens in the form of model "hand-offs". In these situations, having representations, such as visualizations, that can concisely capture how those receiving a model might expect it to behave about their mental models could be useful to provide the types of model "bug" discoveries that some participants described occurring unexpectedly after deployment.
+We observed that model interpretability-related tasks are often performed as a form of "dialogue" between different stakeholders within an organization. In fact, the goal of model interpretability is often about more than just trusting a model; it’s about building trust in an organization between engineering teams and other stakeholders. In the midst of the cooperative and social nature of much interpretability work, the transfer of  knowledge between teams about how a model behaves or misbehaves frequently happens in the form of model "hand-offs". In these situations, having representations, such as visualizations, that can concisely capture how those receiving a model might expect it to behave about their mental models could be useful to provide the types of model "bug" discoveries that some participants described occurring unexpectedly after deployment.
 
-#### 3. Scalable and Integratable Interpretabiltiy Approach for Model Comparison and Data Preparation
+#### 3. Scalable and Integratable Interpretability Approach for Model Comparison and Data Preparation
 
 Many participants shared their concerns with integrating existing interpretability tools in their workflows and organizational infrastructure. Problems commonly cited are that: methods are not available because they were developed in academic settings, where creating robust and dependable software is not the norm; tools were not easy to integrate in existing platforms because they cannot be adapted to their specific environment; or simply that tools do not scale to the sheer size of their data sets.
 
@@ -34,7 +34,7 @@ We suggest two emerging interpretability-related use cases: _data preparation_, 
 
 #### 4. Post Deployment Support
 
-We found multiple participants are often struggling with monitoring the models' behavior and update their model based on a set of insights while stakeholders apply their model's prediction outcomes. We believe data visualization tools are one way to facilitate monitoring model behavior. Automated anomaly detection may be useful in addition, to identify and surface potentially troubling behaviors, given an appropriate specification of critical expectations that should hold such as one learned from domain experts. As several participants alluded to, this is particularly hard in production because problems may stem from different modules of complex data architecture and not only from the model itself.
+We found that multiple participants often struggled with monitoring a models' behavior and updating their model after deployment based on insights that emerge from other  stakeholders applying the model in prediction tasks. These challenges highlighted the lack of existing tools aimed at post-deployment support for identifying and addressing interpretability issues. We believe data visualization tools are one way to facilitate monitoring model behavior. Automated anomaly detection may be useful in addition, to identify and surface potentially troubling behaviors, given an appropriate specification of critical expectations that should hold such as one learned from domain experts. As several participants alluded to, this is particularly hard in production because problems may stem from different modules of complex data architecture and not only from the model itself.
 
 ### CITE
 
@@ -91,4 +91,4 @@ Our participants:
 | P21 | Software           | Principal Design Manager (UX)     | Best images selection, transcription         |
 | P22 | Healthcare         | Senior Data Scientist (DS)        | Care management/resource utilization         |
 
-Last update: 05-19-2020
+Last update: 05-20-2020
